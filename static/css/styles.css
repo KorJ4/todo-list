@@ -1,0 +1,30 @@
+body {
+  background: #f5f6fa;
+}
+
+.sidebar {
+  min-height: 100vh;
+  background: #1f2937;
+}
+
+.sidebar .nav-link {
+  color: #cbd5e1;
+  border-radius: 8px;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+  color: #fff;
+  background: #374151;
+}
+
+.task-card {
+  border: 0;
+  border-radius: 12px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 4px 14px rgba(0, 0, 0, 0.04);
+}
+
+.task-done .task-content {
+  text-decoration: line-through;
+  color: #6b7280;
+}
